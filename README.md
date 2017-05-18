@@ -2,7 +2,6 @@
 
 En este repositorio se encuentra el material utilizado para realizar talleres con la librería a-frame de Mozilla. 
 
-El material está dirigido a personas que tengan conocimientos básicos de HTML y JavaScript aunque también puede ser entendido por personas que conozcan otros lenguajes de programación.
 
 
 # Componentes interesantes
@@ -21,8 +20,14 @@ Modelos 3d por Mike Judge
 
 https://github.com/mikelovesrobots/mmmm
 
+- [MagicalVoxel](https://ephtracy.github.io/)
+
 # Sky
 
 Imágenes Equirectangulares:
 
 https://www.flickr.com/groups/equirectangular/
+
+
+
+
