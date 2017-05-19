@@ -2,19 +2,24 @@
 
 En este repositorio se encuentra el material utilizado para realizar talleres con la librería a-frame de Mozilla. 
 
+### Descripción:
 
+El taller tiene dos partes:
 
-# Componentes interesantes
+- [Ejemplos A-Frame] ./referencia
+- [Solución Taller] ./taller
+
+### Componentes interesantes
 
 - [ Física (colisiones/superficies) ] (https://github.com/donmccurdy/aframe-physics-system)
 
 
-# Recursos de aprendizaje:
+### Recursos de aprendizaje:
 
 - [Awesome A-Frame](https://github.com/aframevr/awesome-aframe)
 - [Realidad Aumentada en 10 líneas](https://dev.to/andraconnect/augmented-reality-in-10-lines-of-html)
 
-# Recursos usados:
+### Recursos usados:
 
 Modelos 3d por Mike Judge
 
@@ -22,11 +27,15 @@ https://github.com/mikelovesrobots/mmmm
 
 - [MagicalVoxel](https://ephtracy.github.io/)
 
-# Sky
+### Sky
 
 Imágenes Equirectangulares:
 
 https://www.flickr.com/groups/equirectangular/
+
+
+Imagen de https://www.flickr.com/photos/rodneycampbell/
+(Creative Commons)
 
 
 
