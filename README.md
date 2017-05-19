@@ -6,8 +6,8 @@ En este repositorio se encuentra el material utilizado para realizar talleres co
 
 El taller tiene dos partes:
 
-- [Ejemplos A-Frame] ./referencia
-- [Solución Taller] ./taller
+- [Ejemplos A-Frame](./referencia)
+- [Solución Taller](./taller)
 
 ### Componentes interesantes
 
