@@ -7,7 +7,16 @@ En este repositorio se encuentra el material utilizado para realizar talleres co
 El taller tiene dos partes:
 
 - [Ejemplos A-Frame](./referencia)
-- [Solución Taller](./taller)
+- [Pasos Taller](./taller)
+
+Nota: Los archivos del taller deben abrirse desde un servidor web. Se puede instalar un servidor fácilmente con
+
+```
+npm install -g http-server
+
+```
+
+Y luego se puede correr http-server desde el directorio principal
 
 ### Componentes interesantes
 
