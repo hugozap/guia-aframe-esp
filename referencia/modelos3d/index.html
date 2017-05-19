@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+          <a-asset-item id="house" src="scene_house7.bake.ply"></a-asset-item>
+          <a-asset-item id="house2" src="obj_house2a.dae"></a-asset-item>
+      </a-assets>
+      <!-- house es un archivo .ply (exportado por MagicVoxel) Incluye sombras. 
+           Necesita ser rotado 90 grados sobre el eje X-->
+       <a-entity ply-model="src: #house" position="-10 0 0" rotation="-90 0 0" scale="0.1 0.1 0.1"></a-entity>
+      
+      <!-- house2 es un archivo .dae (collada) -->
+      <a-collada-model src="#house2" position="0 0 0"></a-collada-model>
+
+      <a-entity camera look-controls wasd-controls scale="1 1 1" position="0 1 5"></a-entity>
+    </a-scene>
+  </body>
+</html>
+
+

@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sphere radius="2" color="red" position="5 1 0">
+         <a-animation attribute="scale"
+               dur="1000"
+               fill="both"
+               to="2 2 2"
+               direction="forwards"
+               repeat="indefinite"></a-animation>
+      </a-sphere>
+
+
+      <a-entity camera look-controls wasd-controls scale="1 1 1" position="0 1 15"></a-entity>
+    </a-scene>    
+  </body>
+</html>
+
+
