@@ -104,3 +104,21 @@ Ahora vamos a agregar un modelo3D creado con MagicaVoxel.
 ```html
 <a-entity ply-model="src: #casa1" position="-10 0 3" rotation="-90 0 0" scale="0.1 0.1 0.1"></a-entity>
 ```
+
+7. Agregar una imagen curva
+
+7.1 Primero debemos declarar el recurso:
+
+```html
+<!-- Dentro de elemento <a-assets> -->
+<img id="wiki" src="../recursos/imagenes/wiki.png">
+
+```
+7.2 Ahora agregamos el elemento a la escena
+
+```html
+<!-- Imágen curva: Mejora la calidad  -->
+ <a-curvedimage src="#wiki" height="3.0" radius="5.7" theta-length="72" position="0 0 6"
+                 rotation="0 100 0" scale="0.8 0.8 0.8"></a-curvedimage>
+      
+```
