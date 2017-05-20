@@ -20,7 +20,7 @@ Y luego se puede correr http-server desde el directorio principal
 
 ### Componentes interesantes
 
-- [ Física (colisiones/superficies) ] (https://github.com/donmccurdy/aframe-physics-system)
+- [ Física - colisiones/superficies -] (https://github.com/donmccurdy/aframe-physics-system)
 
 
 ### Recursos de aprendizaje:
