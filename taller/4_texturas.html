@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <script src="aframe.min.js"></script>
+    <script src="aframe-extras.loaders.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+    <!-- Declaración de recursos -->
+      <a-assets>
+         <img id="sky" src="./recursos/imagenes/sky.jpg">
+         <img id="plant1" src="./recursos/imagenes/plant1.jpg">
+         <img id="plant2" src="./recursos/imagenes/plant2.jpg">
+         <img id="plant3" src="./recursos/imagenes/plant3.jpg">
+      </a-assets>
+    <!-- Elementos de la escena -->
+      <a-plane color="#8176cc" height="400" width="400" rotation="-90 0 0"></a-plane>
+      <a-box material="src:#plant1" position="-5 1 0" depth="2" height="2" width="2"  color="#fff"></a-box>
+      <a-box material="src:#plant2" position="0 1 0"  depth="2" height="2" width="2"  color="#fff"></a-box>
+      <a-box material="src:#plant3" position="5 1 0"  depth="2" height="2" width="2"  color="#fff"></a-box>
+		
+	  <!-- Ahora creamos unas cajas en la posición y = 5 (más arriba) -->
+      <a-box position="-5 5 0" depth="2" height="2" width="2"  color="#f269eb"></a-box>
+      <a-box position="0 5 0"  depth="2" height="2" width="2"  color="#e5be00"></a-box>
+      <a-box position="5 5 0"  depth="2" height="2" width="2"  color="#0184d8"></a-box>
+
+      <a-sphere radius="2" color="red" position="5 2 10"></a-sphere>
+
+      <!-- Sky -->
+      <a-sky src="#sky"></a-sky>
+      
+      <a-entity camera look-controls wasd-controls scale="1 1 1" position="0 1 5"></a-entity>
+    </a-scene>    
+  </body>
+</html>

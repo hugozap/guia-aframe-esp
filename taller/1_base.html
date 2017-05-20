@@ -2,17 +2,14 @@
   <head>
     <script src="aframe.min.js"></script>
     <script src="aframe-extras.loaders.min.js"></script>
+
   </head>
   <body>
     <a-scene>
-      <a-assets>
-         <img id="sky" src="sky.png">
-      </a-assets>
-       <a-sky src="#sky"></a-sky>
-      <a-box color="tomato" depth="2" height="2" width="2" rotation="14 15 15"></a-box>
+      <a-box depth="2" height="2" width="2" rotation="14 15 15" color="red"></a-box>
+      <!-- Cámara -->
       <a-entity camera look-controls wasd-controls scale="1 1 1" position="0 1 15"></a-entity>
-    </a-scene>
-    
+    </a-scene>    
   </body>
 </html>
 

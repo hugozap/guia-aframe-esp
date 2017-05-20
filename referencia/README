@@ -1,1 +1,4 @@
 Ejemplos de algunos componentes de a-frame
+
+Nota: Los ejemplos que usan texturas y modelos 3d deben ser ejecutados
+desde un servidor Web. (Abrir el archivo html en el navegador no funcionará)

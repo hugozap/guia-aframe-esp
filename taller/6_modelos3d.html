@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <script src="aframe.min.js"></script>
+    <script src="aframe-extras.loaders.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+    <!-- Declaración de recursos -->
+      <a-assets>
+         <img id="sky" src="./recursos/imagenes/sky.jpg">
+         <img id="wiki" src="./recursos/imagenes/wiki.png">
+         <img id="plant1" src="./recursos/imagenes/plant1.jpg">
+         <img id="plant2" src="./recursos/imagenes/plant2.jpg">
+         <img id="plant3" src="./recursos/imagenes/plant3.jpg">
+         <a-asset-item id="casa1" src="./recursos/modelos_hd/casa1.ply"></a-asset-item>
+         <a-asset-item id="casa2" src="./recursos/modelos/obj_house3b.dae"></a-asset-item>
+      </a-assets>
+    <!-- Elementos de la escena -->
+      <a-plane color="#8176cc" height="400" width="400" rotation="-90 0 0"></a-plane>
+      <a-box material="src:#plant1" position="-5 1 0" depth="2" height="2" width="2"  color="#fff"></a-box>
+      <a-box material="src:#plant2" position="0 1 0"  depth="2" height="2" width="2"  color="#fff"></a-box>
+      <a-box material="src:#plant3" position="5 1 0"  depth="2" height="2" width="2"  color="#fff"></a-box>
+		
+	  <!-- Ahora creamos unas cajas en la posición y = 5 (más arriba) -->
+      <a-box position="-5 5 0" depth="2" height="2" width="2"  color="#f269eb"></a-box>
+      <a-box position="0 5 0"  depth="2" height="2" width="2"  color="#e5be00"></a-box>
+      <a-box position="5 5 0"  depth="2" height="2" width="2"  color="#0184d8"></a-box>
+
+      <a-sphere radius="2" color="red" position="5 2 10"></a-sphere>
+
+      <!-- Sky -->
+      <a-sky src="#sky"></a-sky>
+
+      <!-- Luz: Tipo ambiente -->
+      <a-entity light="type: ambient; color: #cfeeab"></a-entity>
+      <!-- Luz: Tipo punto (Ver referencia/luz para otros ejemplos) -->
+      <a-entity light="type: point; intensity: 1; distance: 50; decay: 2"
+          position="0 10 10"></a-entity>
+      <!-- Modelos 3D -->
+      <a-entity ply-model="src: #casa1" position="-10 0 3" rotation="-90 0 0" scale="0.1 0.1 0.1"></a-entity>
+      <a-entity ply-model="src: #casa1" position="10 0 3" rotation="-90 0 0" scale="0.1 0.1 0.1"></a-entity>
+
+      <!-- Imágen curva: Mejora la calidad  -->
+      <a-curvedimage src="#wiki" height="3.0" radius="5.7" theta-length="72" position="0 0 6"
+                 rotation="0 100 0" scale="0.8 0.8 0.8"></a-curvedimage>
+      
+      <!-- Cámara -->
+      <a-entity camera look-controls wasd-controls scale="1 1 1" position="0 1 5"></a-entity>
+    </a-scene>    
+  </body>
+</html>
