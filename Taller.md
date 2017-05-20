@@ -18,6 +18,7 @@ Agregar una caja (a-box) y la cámara
 
 (Buscar comentario que dice <!-- Declaración de elementos de la escena aquí --> y escribir)
 
+
 ```html
 
       <a-plane color="#8176cc" height="400" width="400" rotation="-90 0 0"></a-plane>
@@ -44,13 +45,16 @@ Agregar una caja (a-box) y la cámara
 
 Nota: Solo debe haber 1 elemento <a-assets> en la escena:
 
+
 ```html
+
  <a-assets>
     <img id="sky" src="https://rawgit.com/hugozap/guia-aframe-esp/master/taller/recursos/imagenes/sky.jpg">
  </a-assets>
  ```
 
  3.1 Ahora debemos agregar el elemento <a-sky> dentro de la escena. 
+
 
 ```html
  <a-sky src="#sky"></a-sky>
@@ -59,6 +63,7 @@ Nota: Solo debe haber 1 elemento <a-assets> en la escena:
 4. Texturas. Agreguemos 3 recursos (dentro de elemento a-assets)
 
 (Cualquier URL de imagen sirve) (sección de recursos)
+
 
 ```html
  <img id="plant1" src="https://rawgit.com/hugozap/guia-aframe-esp/master/taller/recursos/imagenes/plant1.jpg">
